@@ -1,0 +1,1 @@
+SELECT TOP 40 PERCENT * FROM Employee.Employee; 

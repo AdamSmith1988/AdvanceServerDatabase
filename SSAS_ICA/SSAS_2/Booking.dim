@@ -1,0 +1,267 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cfad28e7-48cb-4c98-b603-7d287016d589" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Booking</ID>
+  <Name>Booking</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4869" scrolltop="-4154" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12779" y="12726" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Booking" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Booking_Booking" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4869</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4154</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="84a56074-3665-4aeb-9ec3-092aa3841a72">
+    <DataSourceViewID>Guappo Hair Design</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="4697267b-7233-4927-ab38-e4b9d0369ca2">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="75fdc774-4b25-46bd-a711-d5c4e8bf229a">
+      <ID>Booking ID</ID>
+      <Name>Booking ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ff999cf5-bc4b-400d-8466-c63509681b43">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f724afc6-5ed3-44ba-8a62-e330f5716379">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>BookingID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="aab2eef3-a59c-41bc-8d1d-13ed370d1d83">
+          <AttributeID>Treatment ID</AttributeID>
+          <Name>Treatment ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c78f9e29-c8cd-4389-85de-f3bbece950e9">
+          <AttributeID>Customer ID</AttributeID>
+          <Name>Customer ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="de8cdcc4-8c90-4b89-90c2-1b93daeb0324">
+          <AttributeID>Employee ID</AttributeID>
+          <Name>Employee ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="53c99b47-c48d-45b1-90e2-b0af361a5f2e">
+          <AttributeID>Salon ID</AttributeID>
+          <Name>Salon ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ec60d9ce-080c-4ea7-a834-10faa9eb1402">
+          <AttributeID>Notes</AttributeID>
+          <Name>Notes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d635769b-db79-4c45-92b7-7886b9c04b88">
+          <AttributeID>Confirmed</AttributeID>
+          <Name>Confirmed</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8bd57a8f-a4fe-461f-9e78-cd044f648ded">
+          <AttributeID>Cancelled</AttributeID>
+          <Name>Cancelled</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="10622d56-301d-407c-ae4b-cab5a2679e88">
+      <ID>Treatment ID</ID>
+      <Name>Treatment ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="677b72dc-6a22-4659-94c9-9356b251ffaa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c90f6280-43da-4c05-84f2-31cf9a10bec5">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>TreatmentID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="12515719-7321-49ec-9e37-6671b4a5aacc">
+      <ID>Customer ID</ID>
+      <Name>Customer ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f80d1fbc-6ee3-40f7-bf5e-4d5d7ff034c2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="820af2cc-1d18-4517-88ba-71bb889a446d">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>CustomerID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15b26211-5f71-42d4-a6fa-4c0e7aff928b">
+      <ID>Employee ID</ID>
+      <Name>Employee ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="738577a5-1a08-4ac4-8efd-4b1c4c1be6bf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d0816a5-4ace-438f-b3d4-d0499f12aa18">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>EmployeeID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5cf19aeb-3ab0-46fb-bf9b-c2bcaf8e37d6">
+      <ID>Salon ID</ID>
+      <Name>Salon ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="08a5fc7b-880b-4fa8-b3e9-2c74f595eace">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="536d3649-d000-4f15-8a1c-10b190313d49">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>SalonID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="671ef41c-a26c-4a51-9fa6-0aa085dc2b54">
+      <ID>Notes</ID>
+      <Name>Notes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cf63d68b-ed90-4199-9aba-888860937434">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d137e157-a964-4537-a853-29e22753be87">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>Notes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe287dd7-c551-4f64-85cf-5b329c0343d6">
+      <ID>Confirmed</ID>
+      <Name>Confirmed</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1069bbfa-ada0-450e-bcf8-f25307cd804e">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1a0f28b-09ed-44e5-9730-64b430204f01">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>Confirmed</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7eae5dd6-1593-4c5b-850e-62d7bdc93e68">
+      <ID>Cancelled</ID>
+      <Name>Cancelled</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b574fd2f-865e-493b-b03a-6ed8b8c4eaf0">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1eb19e08-a3d0-4761-bbff-585c0d62dacf">
+            <TableID>Booking_Booking</TableID>
+            <ColumnID>Cancelled</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="ff0cb957-5177-4410-a7f9-bae66d94166a">
+      <ID>Hierarchy</ID>
+      <Name>Booking_Full</Name>
+      <Levels>
+        <Level dwd:design-time-name="c819a9f0-afab-40da-80f3-95a28451341e">
+          <ID>Notes</ID>
+          <Name>Notes</Name>
+          <SourceAttributeID>Notes</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="31b9571b-9b19-45da-bd2a-cc3dd0004626">
+          <ID>Confirmed</ID>
+          <Name>Confirmed</Name>
+          <SourceAttributeID>Confirmed</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ef775450-071c-4fe4-858e-011d7ff9772f">
+          <ID>Cancelled</ID>
+          <Name>Cancelled</Name>
+          <SourceAttributeID>Cancelled</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="eb4863ba-1556-4b38-bb5a-876a9bfe1b26">
+          <ID>Booking ID</ID>
+          <Name>Booking ID</Name>
+          <SourceAttributeID>Booking ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

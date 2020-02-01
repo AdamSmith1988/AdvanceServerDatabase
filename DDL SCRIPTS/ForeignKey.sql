@@ -1,0 +1,5 @@
+ALTER TABLE ForeignKeyTable
+
+ADD FOREIGN KEY (SalonID)
+
+REFERENCES Salon(SalonID);

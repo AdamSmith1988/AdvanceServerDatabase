@@ -1,0 +1,1 @@
+DELETE From Salon WHERE SalonID = 1;

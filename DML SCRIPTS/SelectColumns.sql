@@ -1,0 +1,1 @@
+Select Rating, Comments FROM Customer.Reviews;

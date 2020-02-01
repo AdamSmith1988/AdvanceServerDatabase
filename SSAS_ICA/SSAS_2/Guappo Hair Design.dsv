@@ -1,0 +1,197 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="01ddf1cd-9493-4cb7-9745-adad66948a2f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Guappo Hair Design</ID>
+  <Name>Guappo Hair Design</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Guappo Hair Design</DataSourceID>
+  <Schema>
+    <xs:schema id="Guappo_x0020_Hair_x0020_Design" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Guappo_x0020_Hair_x0020_Design" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="5326f48e-5576-43bb-abb7-373155b49edd">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Booking_Booking" msprop:design-time-name="8f820cfd-85d3-47dc-a8a3-a2c7ad142250" msprop:DbTableName="Booking" msprop:FriendlyName="Booking" msprop:DbSchemaName="Booking" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="BookingID" msprop:design-time-name="34126f3a-51a4-417b-af06-83b2719eb098" msprop:DbColumnName="BookingID" msprop:FriendlyName="BookingID" type="xs:int" />
+                  <xs:element name="EmployeeID" msprop:design-time-name="4b126654-87d3-4c79-bc8c-5515c83e6463" msprop:DbColumnName="EmployeeID" msprop:FriendlyName="EmployeeID" type="xs:int" />
+                  <xs:element name="SalonID" msprop:design-time-name="24b7f098-b832-4377-aa9c-3201c90ec4d8" msprop:DbColumnName="SalonID" msprop:FriendlyName="SalonID" type="xs:int" />
+                  <xs:element name="CustomerID" msprop:design-time-name="69464118-a405-438a-9096-8e409584d7b4" msprop:DbColumnName="CustomerID" msprop:FriendlyName="CustomerID" type="xs:int" />
+                  <xs:element name="TreatmentID" msprop:design-time-name="c7d27fc6-9611-454a-81dd-4837fafd8f38" msprop:DbColumnName="TreatmentID" msprop:FriendlyName="TreatmentID" type="xs:int" />
+                  <xs:element name="Notes" msprop:design-time-name="c41ab7bd-6b37-4999-920e-706b736d9b8f" msprop:DbColumnName="Notes" msprop:FriendlyName="Notes" type="xs:string" minOccurs="0" />
+                  <xs:element name="Confirmed" msprop:design-time-name="91ab0caf-492f-4d6f-b18f-c1fbff9f25d3" msprop:DbColumnName="Confirmed" msprop:FriendlyName="Confirmed" type="xs:boolean" />
+                  <xs:element name="Cancelled" msprop:design-time-name="f175958b-ef38-4ed5-8890-81f1d403ac7b" msprop:DbColumnName="Cancelled" msprop:FriendlyName="Cancelled" type="xs:boolean" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Booking_BookingTime" msprop:design-time-name="85897555-5a1d-498b-bcf5-60bb2d74159e" msprop:DbTableName="BookingTime" msprop:FriendlyName="BookingTime" msprop:DbSchemaName="Booking" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="BookingTimeID" msprop:design-time-name="4ec58ce5-7864-48d9-9694-7b495bffc4d3" msprop:DbColumnName="BookingTimeID" msprop:FriendlyName="BookingTimeID" type="xs:int" />
+                  <xs:element name="BookingID" msprop:design-time-name="2fddc589-8e09-46f7-9e5e-9852804a4044" msprop:DbColumnName="BookingID" msprop:FriendlyName="BookingID" type="xs:int" />
+                  <xs:element name="Date" msprop:design-time-name="3113a1c9-f0b1-4b8c-9405-ca5e91281d37" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:dateTime" />
+                  <xs:element name="TimeStart" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="b4035c88-074d-4c70-91b2-c5f7e4dbb4d1" msprop:DbColumnName="TimeStart" msprop:FriendlyName="TimeStart" type="xs:anyType" />
+                  <xs:element name="TimeFinish" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="b359c971-5d85-4375-a8cd-5fece8ed76a3" msprop:DbColumnName="TimeFinish" msprop:FriendlyName="TimeFinish" type="xs:anyType" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Customer_Customer" msprop:design-time-name="3fb61ff1-16b6-4548-9359-677aa6c3c73c" msprop:DbTableName="Customer" msprop:FriendlyName="Customer" msprop:DbSchemaName="Customer" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CustomerID" msprop:design-time-name="a2effd12-4236-4947-8bd2-a6d727892d46" msprop:DbColumnName="CustomerID" msprop:FriendlyName="CustomerID" type="xs:int" />
+                  <xs:element name="ForeName" msprop:design-time-name="50f044c6-3f43-4b15-851d-edde7551f5f1" msprop:DbColumnName="ForeName" msprop:FriendlyName="ForeName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Surname" msprop:design-time-name="8dbc183e-2e01-48c1-8bc7-1b682b10be52" msprop:DbColumnName="Surname" msprop:FriendlyName="Surname">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Title" msprop:design-time-name="90aa3224-60aa-42a1-a303-98457bb05de3" msprop:DbColumnName="Title" msprop:FriendlyName="Title" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DateOfBirth" msprop:design-time-name="ff2b0344-9afe-473f-91bf-f49dc48244d8" msprop:DbColumnName="DateOfBirth" msprop:FriendlyName="DateOfBirth" type="xs:dateTime" />
+                  <xs:element name="Address" msprop:design-time-name="8974bb26-d86b-4fbd-8ca6-8b9ab96f47fa" msprop:DbColumnName="Address" msprop:FriendlyName="Address" type="xs:string" />
+                  <xs:element name="Postcode" msprop:design-time-name="2565f8df-f581-464a-b616-9f9717a43be1" msprop:DbColumnName="Postcode" msprop:FriendlyName="Postcode">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Email" msprop:design-time-name="fca60458-5be2-4eef-91af-40a0cdf58f88" msprop:DbColumnName="Email" msprop:FriendlyName="Email" type="xs:string" />
+                  <xs:element name="PhoneNo" msprop:design-time-name="0900e2f3-6ea6-4976-b716-c382ae4ff08b" msprop:DbColumnName="PhoneNo" msprop:FriendlyName="PhoneNo">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Username" msprop:design-time-name="14425542-d836-4e0c-af56-b448e90d3f43" msprop:DbColumnName="Username" msprop:FriendlyName="Username">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Password" msprop:design-time-name="7923a956-ef6f-4e26-9036-f9b59f393671" msprop:DbColumnName="Password" msprop:FriendlyName="Password">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Treatment_Treatment" msprop:design-time-name="6e17b415-2411-4538-aa72-0b1c74b5d325" msprop:DbTableName="Treatment" msprop:FriendlyName="Treatment" msprop:DbSchemaName="Treatment" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TreatmentID" msprop:design-time-name="8be52426-d1f4-4430-8e42-ae1714f89a4b" msprop:DbColumnName="TreatmentID" msprop:FriendlyName="TreatmentID" type="xs:int" />
+                  <xs:element name="TreatmentTypeID" msprop:design-time-name="e2d60d11-3f4b-4e04-b5e9-a66686760a46" msprop:DbColumnName="TreatmentTypeID" msprop:FriendlyName="TreatmentTypeID" type="xs:int" />
+                  <xs:element name="TreamtentName" msprop:design-time-name="d54cfe6a-e077-41d7-9a20-b56ff5813d4f" msprop:DbColumnName="TreamtentName" msprop:FriendlyName="TreamtentName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Treatment_TreatmentType" msprop:design-time-name="2b09f56a-d633-46ae-b342-b58802696886" msprop:DbTableName="TreatmentType" msprop:FriendlyName="TreatmentType" msprop:DbSchemaName="Treatment" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TreatmentTypeID" msprop:design-time-name="03a146c0-ca4e-4445-ac5d-d2bd972ad8cd" msprop:DbColumnName="TreatmentTypeID" msprop:FriendlyName="TreatmentTypeID" type="xs:int" />
+                  <xs:element name="TreatmentType" msprop:design-time-name="929e0f91-bcee-4650-b1cc-69b94fa30255" msprop:DbColumnName="TreatmentType" msprop:FriendlyName="TreatmentType" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Booking_Booking" />
+          <xs:field xpath="BookingID" />
+        </xs:unique>
+        <xs:unique name="Booking_BookingTime_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Booking_BookingTime" />
+          <xs:field xpath="BookingTimeID" />
+        </xs:unique>
+        <xs:unique name="Customer_Customer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Customer_Customer" />
+          <xs:field xpath="CustomerID" />
+        </xs:unique>
+        <xs:unique name="Treatment_Treatment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Treatment_Treatment" />
+          <xs:field xpath="TreatmentID" />
+        </xs:unique>
+        <xs:unique name="Treatment_TreatmentType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Treatment_TreatmentType" />
+          <xs:field xpath="TreatmentTypeID" />
+        </xs:unique>
+        <xs:keyref name="FK_Treatment_TreatmentType" refer="Treatment_TreatmentType_Constraint1">
+          <xs:selector xpath=".//Treatment_Treatment" />
+          <xs:field xpath="TreatmentTypeID" />
+        </xs:keyref>
+        <xs:keyref name="FK_BookingTime_Booking" refer="Constraint1">
+          <xs:selector xpath=".//Booking_BookingTime" />
+          <xs:field xpath="BookingID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Booking_Treatment" refer="Treatment_Treatment_Constraint1">
+          <xs:selector xpath=".//Booking_Booking" />
+          <xs:field xpath="TreatmentID" />
+        </xs:keyref>
+        <xs:keyref name="FK_Booking_Customer" refer="Customer_Customer_Constraint1">
+          <xs:selector xpath=".//Booking_Booking" />
+          <xs:field xpath="CustomerID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Guappo_x0020_Hair_x0020_Design xmlns="" />
+  </Schema>
+</DataSourceView>
